@@ -5,7 +5,9 @@ repository: https://github.com/ivangalkindeveloper/screen_corner_radius
 
 environment:
   sdk: ^3.9.2
-  flutter: '>=3.3.0'
+  # The iOS plugin ships exclusively as a Swift Package, which requires
+  # Swift Package Manager support in the consuming Flutter app.
+  flutter: '>=3.44.0'
 
 dependencies:
   flutter:
