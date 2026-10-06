@@ -2,6 +2,7 @@ name: screen_corner_radius
 description: Screen Corner Radius plugin.
 version: 3.0.0
 repository: https://github.com/ivangalkindeveloper/screen_corner_radius
+publish_to: none
 
 environment:
   sdk: ^3.9.2
