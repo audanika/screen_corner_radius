@@ -2,6 +2,7 @@ name: screen_corner_radius
 description: Screen Corner Radius plugin.
 version: 3.0.0
 repository: https://github.com/ivangalkindeveloper/screen_corner_radius
+publish_to: none
 
 environment:
   sdk: ^3.9.2
@@ -15,8 +16,10 @@ dependencies:
   plugin_platform_interface: ^2.1.8
 
 dev_dependencies:
+  dna_audanika: ^0.0.1
   flutter_test:
     sdk: flutter
+  helix: ^1.11.0
 
 flutter:
   plugin:
